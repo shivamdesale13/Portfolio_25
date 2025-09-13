@@ -731,16 +731,17 @@ section .title::after{
 }
 
 .experience .experience-card {
-    width: 30%;
+    width: 48%; /* take ~half of the row */
     margin-bottom: 30px;
     box-sizing: border-box;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for smooth hover effect */
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .experience .experience-card:hover {
-    background-color: crimson; /* Change background color on hover */
-    transform: translateY(-5px); /* Slightly lift the card on hover */
+    background-color: crimson;
+    transform: translateY(-5px);
 }
+
 
 .experience .experience-card .box {
     padding: 20px;
